@@ -8,6 +8,6 @@ public class DriverScript {
 	@Test
 	public void startTest() {
 		FunctionLibrary fun = new FunctionLibrary();
-		fun.fun();
+		// fun.s);
 	}
 }

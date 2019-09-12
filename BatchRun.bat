@@ -1,4 +1,4 @@
-set projectLocation=I:\Selenium\AmazonMaven
+set projectLocation=I:\Git Projects\CompleteProject\CompleteProject
 
 cd %projectLocation%
 
