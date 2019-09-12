@@ -25,7 +25,13 @@ public class ExcelFileUtil {
 		System.out.println(System.getProperty("user.dir"));
 		FileInputStream fi = new FileInputStream(System.getProperty("user.dir") + "\\TestInput\\Inputs.xlsx");
 		System.out.println(System.getProperty("user.dir") + "\\TestInput\\Inputs.xlsx");
-		book = WorkbookFactory.create(fi);
+		try {
+			book = WorkbookFactory.create(fi);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+
 	}
 
 	public int getrowCount(String Sheetname) {

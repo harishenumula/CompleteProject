@@ -1,0 +1,13 @@
+2019-09-13 00:56:00,707  INFO [main] FunctionLibrary:27 - Setting Browser Config
+2019-09-13 00:56:11,651  INFO [main] FunctionLibrary:37 - opening website..
+2019-09-13 00:56:17,421  INFO [main] FunctionLibrary:98 - Typing   mobile   Into  twotabsearchtextbox
+2019-09-13 00:56:18,097  INFO [main] FunctionLibrary:51 - Clicking on //*[@id="nav-search"]/form/div[2]/div/input
+2019-09-13 00:56:22,163  INFO [main] FunctionLibrary:51 - Clicking on //*[@id="p_n_operating_system_browse-bin/1485077031"]/span/a/div/label/input
+2019-09-13 00:56:29,238  INFO [main] FunctionLibrary:51 - Clicking on //*[@id="p_89/Mi"]/span/a/span
+2019-09-13 00:56:35,164  INFO [main] FunctionLibrary:51 - Clicking on //*[contains(text(),'?5,000 - ?10,000')]
+2019-09-13 00:56:38,109  INFO [main] FunctionLibrary:51 - Clicking on //*[contains(text(),'Redmi 6 Pro (Black, 3GB RAM, 32GB Storage)')]
+2019-09-13 00:56:38,485  INFO [main] FunctionLibrary:84 - changing Driver Focus
+2019-09-13 00:56:39,724  INFO [main] FunctionLibrary:51 - Clicking on //*[@id='add-to-cart-button']
+2019-09-13 00:56:42,531  INFO [main] FunctionLibrary:51 - Clicking on //*[@id="hlb-view-cart-announce"]
+2019-09-13 00:56:45,382  INFO [main] FunctionLibrary:43 - performing Selection Action.
+2019-09-13 00:56:46,421  INFO [main] FunctionLibrary:51 - Clicking on proceedToCheckout
