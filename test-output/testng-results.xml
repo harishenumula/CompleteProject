@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51307" started-at="2019-09-13T00:55:57 IST" finished-at="2019-09-13T00:56:48 IST">
+  <suite name="Suite" duration-ms="88467" started-at="2019-09-13T23:13:48 IST" finished-at="2019-09-13T23:15:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51307" started-at="2019-09-13T00:55:57 IST" finished-at="2019-09-13T00:56:48 IST">
+    <test name="Test" duration-ms="88467" started-at="2019-09-13T23:13:48 IST" finished-at="2019-09-13T23:15:16 IST">
       <class name="DriverFactory.DriverScript1">
-        <test-method status="PASS" signature="start_Test()[pri:0, instance:DriverFactory.DriverScript1@3414a8c3]" name="start_Test" duration-ms="51191" started-at="2019-09-13T00:55:57 IST" finished-at="2019-09-13T00:56:48 IST">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:DriverFactory.DriverScript1@72b6cbcc]" name="setExtent" is-config="true" duration-ms="1299" started-at="2019-09-13T23:13:48 IST" finished-at="2019-09-13T23:13:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="start_Test()[pri:0, instance:DriverFactory.DriverScript1@72b6cbcc]" name="start_Test" duration-ms="81176" started-at="2019-09-13T23:13:49 IST" finished-at="2019-09-13T23:15:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_Test -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DriverFactory.DriverScript1@72b6cbcc]" name="endreport" is-config="true" duration-ms="5935" started-at="2019-09-13T23:15:10 IST" finished-at="2019-09-13T23:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
       </class> <!-- DriverFactory.DriverScript1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
