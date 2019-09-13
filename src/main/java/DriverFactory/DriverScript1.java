@@ -26,7 +26,7 @@ public class DriverScript1 {
 	@BeforeTest
 	public void setExtent() {
 		extent = new ExtentReports(System.getProperty("user.dir") + "\\test-output\\ExtentReport.html", true);
-		System.out.println("creating extent report at \n"+System.getProperty("user.dir") + "\\test-output\\ExtentReport.html);
+		System.out.println("creating extent report at \n"+System.getProperty("user.dir") + "\\test-output\\ExtentReport.html");
 		extent.addSystemInfo("username", "Harish");
 		extent.addSystemInfo("OS", "Windows");
 		extent.addSystemInfo("env", "testing");
